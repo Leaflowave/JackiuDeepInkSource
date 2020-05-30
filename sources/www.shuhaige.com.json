@@ -3,7 +3,7 @@
     "url": "www.shuhaige.com",
     "version": 100,
 	 "search": {
-        "url": "https://www.shuhaige.com/search.html?keyword=${key}",
+        "url": "https://www.shuhaige.com/search.html?@post->searchkey=${key}",
         "list": "div.novelslist2 > ul > li:gt(0)",
         "name": "span:nth-child(2) > a",
         "author": "span:nth-child(4)",
