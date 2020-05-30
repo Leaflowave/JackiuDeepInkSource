@@ -1,7 +1,7 @@
 {
     "name": "书海阁",
     "url": "www.shuhaige.com",
-    "version": 103,
+    "version": 104,
 	"search": {
 		"url": "https://www.shuhaige.com/search.html?@post->searchkey=${key}",
 		"list": ".novelslist2 > ul > li:gt(0)",
@@ -26,11 +26,8 @@
     },
     "chapter": {
         "content": ".content",
-        "page": ".pagego > font:nth-child(2):matches(下一页)",
-        "purify": [
-			"因未知原因，今天搜狗突然无法搜索到本站，请各位书友牢记本站域名www.shuhaige.com(书海阁全拼)找到回家的路",
-            "您可以在百度里搜索“(.+)书海阁小说网(www.shuhaige.com)”查找最新章节",
-			"最新章节地址(.+)"
+        "page": ".pagego > font:nth-child(2):matches(下一页)"
+ 
     }
 	
 	
