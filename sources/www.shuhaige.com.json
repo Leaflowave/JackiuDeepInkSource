@@ -1,7 +1,7 @@
 {
     "name": "书海阁",
     "url": "www.shuhaige.com",
-    "version": 100,
+    "version": 102,
 	 "search": {
         "url": "https://www.shuhaige.com/search.html?@post->searchkey=${key}",
         "list": ".novelslist2 > ul > li:gt(0)",
