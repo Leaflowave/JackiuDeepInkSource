@@ -24,7 +24,7 @@
         "list": "dl:nth-child(2) > dd",
         "orderBy": 0,
         "name": "a",
-        "chapter": "a"
+        "chapter": "a",
 		"page":""
     },
     "chapter": {
