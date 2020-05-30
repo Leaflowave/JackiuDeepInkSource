@@ -1,16 +1,16 @@
 {
     "name": "书海阁",
     "url": "www.shuhaige.com",
-    "version": 101,
+    "version": 100,
 	 "search": {
         "url": "https://www.shuhaige.com/search.html?@post->searchkey=${key}",
-        "list": "div.novelslist2 > ul > li:gt(0)",
+        "list": ".novelslist2 > ul > li:gt(0)",
         "name": "span:nth-child(2) > a",
         "author": "span:nth-child(4)",
         "detail": "span:nth-child(2) > a"
     },
     "detail": {
-		"cover":"img",
+		"cover":"#book_cover>img",
         "summary": "#intro > p",
         "status": "meta[property=og:novel:status]@attr->content",
         "update": "meta[property=og:novel:update_time]@attr->content",
@@ -18,7 +18,7 @@
         "catalog": ""
     },
     "catalog": {
-        "list": "div.novel_list:nth-child(2) > dl > dd > a",
+        "list": ".novel_list:last-child  > dl > dd > a",
         "orderBy": 0,
         "name": "a",
         "chapter": "a"
@@ -29,12 +29,8 @@
         "purify": [
             "第(.+)章(.+)",
 			"因未知原因，今天搜狗突然无法搜索到本站，请各位书友牢记本站域名www.shuhaige.com(书海阁全拼)找到回家的路！",
-            "您可以在百度里搜索“(.+) 书海阁小说网(www.shuhaige.com)”查找最新章节！"
+            "您可以在百度里搜索“(.+)书海阁小说网(www.shuhaige.com)”查找最新章节！"
         ]
-    }
-	
-	
-	
-	
+    }	
 	
 }
