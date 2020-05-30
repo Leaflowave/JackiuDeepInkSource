@@ -24,8 +24,8 @@
         "list": "dl:nth-child(2) > dd",
         "orderBy": 0,
         "name": "a",
-        "chapter": "a",
-		"page":""
+        "chapter": "a"
+		"page":"#pagelink>a:nth-child(2):matches(下一页)"
     },
     "chapter": {
         "content": ".content",
